@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Publications on Chuankai Zhao</title>
+    <link>http://chuankaizhao.github.io/publication/</link>
+    <description>Recent content in Publications on Chuankai Zhao</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; Chuankai Zhao 2018</copyright>
+    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 -0600</lastBuildDate>
+    
+	<atom:link href="http://chuankaizhao.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Divalent Cations Enhance TALE-DNA Binding Specificity</title>
+      <link>http://chuankaizhao.github.io/publication/2019-tale/</link>
+      <pubDate>Thu, 20 Dec 2018 00:00:00 -0600</pubDate>
+      
+      <guid>http://chuankaizhao.github.io/publication/2019-tale/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SAXS-guided Enhanced Unbiased Sampling for Structure Determination of Proteins and Complexes</title>
+      <link>http://chuankaizhao.github.io/publication/2018-scientific-reports/</link>
+      <pubDate>Mon, 10 Dec 2018 04:00:00 -0600</pubDate>
+      
+      <guid>http://chuankaizhao.github.io/publication/2018-scientific-reports/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dewetting Controls Plant Hormone Perception and Initiation of Drought Resistance Signaling</title>
+      <link>http://chuankaizhao.github.io/publication/2019-structure/</link>
+      <pubDate>Wed, 05 Dec 2018 00:00:00 -0600</pubDate>
+      
+      <guid>http://chuankaizhao.github.io/publication/2019-structure/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dynamic-template-directed multiscale assembly for large-area coating of highly-aligned conjugated polymer thin films</title>
+      <link>http://chuankaizhao.github.io/publication/2017-nature-communications/</link>
+      <pubDate>Thu, 13 Jul 2017 09:39:12 -0600</pubDate>
+      
+      <guid>http://chuankaizhao.github.io/publication/2017-nature-communications/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fabrication of platinum submonolayer electrodes and their high electrocatalytic activities for ammonia oxidation</title>
+      <link>http://chuankaizhao.github.io/publication/2015-electrochimica-acta/</link>
+      <pubDate>Sun, 20 Sep 2015 09:31:49 -0600</pubDate>
+      
+      <guid>http://chuankaizhao.github.io/publication/2015-electrochimica-acta/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Chuankai Zhao on Chuankai Zhao</title>
+    <link>http://chuankaizhao.github.io/</link>
+    <description>Recent content in Chuankai Zhao on Chuankai Zhao</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; Chuankai Zhao 2018</copyright>
+    <lastBuildDate>Sun, 15 Oct 2017 00:00:00 -0500</lastBuildDate>
+    <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Plant Hormone Signaling Mechanism</title>
+      <link>http://chuankaizhao.github.io/project/plant-hormone-signaling/</link>
+      <pubDate>Sun, 23 Dec 2018 16:20:16 -0600</pubDate>
+      
+      <guid>http://chuankaizhao.github.io/project/plant-hormone-signaling/</guid>
+      <description>&lt;p&gt;Plant hormones, the small molecules produced in plants, regulate all aspects of plant activities such as growth, development and stress responses. In recent years, substantial structural and biochemical studies have achieved significant advances in understanding the molecular mechanism of plant hormone perceptions by their receptors and subsequent activation of signaling cascades. However, dynamic and energetic aspects of plant hormone perception and subsequent receptor conformational change processes remain elusive.&lt;/p&gt;
+
+&lt;p&gt;Here, we utilize large-scale molecular dynamics simulations and statistical modeling approaches to uncover structural, dynamic, energetic basis of receptor-hormone recognitions, their down-regulations by post-translational modifications, and protein-protein interactions involved in signaling networks. We aim to utilize these computational tools to obtain deep understandings of the activation processes of plant hormone receptors, which will faciliate future chemical design and protein engineering efforts in regulating plant activities.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Dynamic-template-directed multiscale assembly</title>
+      <link>http://chuankaizhao.github.io/project/self-assembly/</link>
+      <pubDate>Sat, 22 Dec 2018 16:20:16 -0600</pubDate>
+      
+      <guid>http://chuankaizhao.github.io/project/self-assembly/</guid>
+      <description>&lt;p&gt;In recent years, solution processable semiconducting polymers have been under intense investigations due to their diverse applications from printed electronics to biomedical devices. However, controlling the macromolecular assembly across length scales during solution coating remains a key challenge, largely due to the disparity in timescales of polymer assembly and high-throughput printing/coating.&lt;/p&gt;
+
+&lt;p&gt;In collaboration with Professor &lt;a href=&#34;http://diao.scs.illinois.edu/Diao_Lab/Home.html&#34; target=&#34;_blank&#34;&gt;Ying Diao&lt;/a&gt; Group at Illinois, we propose the concept of dynamic templating to expedite polymer nucleation and the ensuing assembly process. We have employed ionic liquids as the dynamic template in meniscus-guided coating experiments, which results in highly aligned, highly crystalline donor-acceptor polymer thin films over large area and promoted charge transport. Our molecular dynamics simulations help to unravel the key molecular mechanism underlying the dynamic-template-directed polymer assembly process. Following our previous work, we are actively developing new dynamic templates for polymer assembly processes.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Efficient Sampling of Protein Dynamics</title>
+      <link>http://chuankaizhao.github.io/project/sampling/</link>
+      <pubDate>Sat, 22 Dec 2018 16:20:16 -0600</pubDate>
+      
+      <guid>http://chuankaizhao.github.io/project/sampling/</guid>
+      <description>&lt;p&gt;Molecular simulations can be utilized to predict protein structure ensembles and dynamics, though sufficient sampling of molecular ensembles and identification of key biologically relevant conformations remains challenging. To partially address thess challenges, we utilize distributed computing techniques and advanced Markov state models for obtaining mechanistic insights into bimolecular dynamics. We aim to further develop these sampling methods for molecular simulations to improve time efficiency and prediction accuracy.&lt;/p&gt;
+
+&lt;p&gt;Low-resolution experimental techniques provide valuable structural information on biomolecule at near-native conditions, which are often combined with molecular simulations to determine and refine protein structural ensembles. This project aims to integrate experimental data on protein ensemble and dynamics with Markov state model-based adaptive sampling strategy to enhance time efficiency of unbiased MD simulations and identify functionally relevant conformations of proteins and complexes.&lt;/p&gt;
+
+&lt;p&gt;Also, we aim to develop and integrate deep learning frameworks to identify optimal reaction coordiantes for sampling biomolecular dynamics and modeling simulation data. We plan to implement these methods in the &lt;a href=&#34;http://www.ks.uiuc.edu/Research/namd/&#34; target=&#34;_blank&#34;&gt;NAMD software&lt;/a&gt;, a scalable molecular dynamics package developed at Illinois campus.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Machine Learning for Agrochemical Discovery</title>
+      <link>http://chuankaizhao.github.io/project/agrochemical-discovery/</link>
+      <pubDate>Sat, 22 Dec 2018 16:20:16 -0600</pubDate>
+      
+      <guid>http://chuankaizhao.github.io/project/agrochemical-discovery/</guid>
+      <description>&lt;p&gt;The discoveries of plant hormone agonists and antagonists open up plethora of possibilities to chemically modulate plant growth, development and stress responses. Phenotype-based screens of compound libraries, including a high-throughput scale, has become an indispensable tool to identify compounds that can activate certain hormone signaling pathways. However, the screening of large compound libraries is generally time-consuming, expensive and inefficient.&lt;/p&gt;
+
+&lt;p&gt;Computational chemistry and machine learning frameworks have become indispensable components in modern drug design processes, including hit discovery, hit-to-lead filtering, and lead optimization. This project aims to extend these computational frameworks for agrochemical discovery. The goal is to facilitate chemical design for selectively targeting plant hormone receptors.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>TALE-DNA Binding and Specificity</title>
+      <link>http://chuankaizhao.github.io/project/tale-dna-binding/</link>
+      <pubDate>Sat, 22 Dec 2018 16:20:16 -0600</pubDate>
+      
+      <guid>http://chuankaizhao.github.io/project/tale-dna-binding/</guid>
+      <description>&lt;p&gt;Recent advances in biotechnology and molecular biology have opened new and efficient routes for the direct modification of large intact genomes. Programmable nucleases such as the CRISPR/Cas9 system and transcription activator-like ector nucleases (TALENs) provide a powerful set of molecular tools for genome engineering. Despite a growing interest in gene editing, several open questions remain regarding the molecular machinery in these systems, including the fundamental search and binding behavior as well as the role of non-target binding and specificity.&lt;/p&gt;
+
+&lt;p&gt;In collaboration with Professors &lt;a href=&#34;http://schroeder.scs.illinois.edu/&#34; target=&#34;_blank&#34;&gt;Charles M. Schroeder&lt;/a&gt; and &lt;a href=&#34;http://faculty.scs.illinois.edu/~zhaogrp/&#34; target=&#34;_blank&#34;&gt;Huimin Zhao&lt;/a&gt; Groups at Illinois, this project aims to combine experimental and computational approaches to elucidate the molecular mechanism of TALE protein specificity and its target binding to DNA. We utilize molecular simulation and statistical modeling to obtain insights into the structural and energetic basis of TALE-DNA binding.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Divalent Cations Enhance TALE-DNA Binding Specificity</title>
+      <link>http://chuankaizhao.github.io/publication/2019-tale/</link>
+      <pubDate>Thu, 20 Dec 2018 00:00:00 -0600</pubDate>
+      
+      <guid>http://chuankaizhao.github.io/publication/2019-tale/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SAXS-guided Enhanced Unbiased Sampling for Structure Determination of Proteins and Complexes</title>
+      <link>http://chuankaizhao.github.io/publication/2018-scientific-reports/</link>
+      <pubDate>Mon, 10 Dec 2018 04:00:00 -0600</pubDate>
+      
+      <guid>http://chuankaizhao.github.io/publication/2018-scientific-reports/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dewetting Controls Plant Hormone Perception and Initiation of Drought Resistance Signaling</title>
+      <link>http://chuankaizhao.github.io/publication/2019-structure/</link>
+      <pubDate>Wed, 05 Dec 2018 00:00:00 -0600</pubDate>
+      
+      <guid>http://chuankaizhao.github.io/publication/2019-structure/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dynamic-template-directed multiscale assembly for large-area coating of highly-aligned conjugated polymer thin films</title>
+      <link>http://chuankaizhao.github.io/publication/2017-nature-communications/</link>
+      <pubDate>Thu, 13 Jul 2017 09:39:12 -0600</pubDate>
+      
+      <guid>http://chuankaizhao.github.io/publication/2017-nature-communications/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fabrication of platinum submonolayer electrodes and their high electrocatalytic activities for ammonia oxidation</title>
+      <link>http://chuankaizhao.github.io/publication/2015-electrochimica-acta/</link>
+      <pubDate>Sun, 20 Sep 2015 09:31:49 -0600</pubDate>
+      
+      <guid>http://chuankaizhao.github.io/publication/2015-electrochimica-acta/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
