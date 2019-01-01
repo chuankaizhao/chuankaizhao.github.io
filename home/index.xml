@@ -43,21 +43,21 @@ Softwares: TensorFlow, Scikit-learn, Keras, Git, LATEX, Microsoft orce, NumPy, P
     </item>
     
     <item>
+      <title>Research Projects</title>
+      <link>http://chuankaizhao.github.io/home/projects/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0500</pubDate>
+      
+      <guid>http://chuankaizhao.github.io/home/projects/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Academic</title>
       <link>http://chuankaizhao.github.io/home/hero/</link>
       <pubDate>Sun, 15 Oct 2017 00:00:00 -0500</pubDate>
       
       <guid>http://chuankaizhao.github.io/home/hero/</guid>
       <description>The highly flexible website framework for Hugo with an extensible plugin mechanism. Create a beautifully simple site in under 10 minutes 🚀 Latest release   Star</description>
-    </item>
-    
-    <item>
-      <title>Experience</title>
-      <link>http://chuankaizhao.github.io/home/experience/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://chuankaizhao.github.io/home/experience/</guid>
-      <description></description>
     </item>
     
     <item>
@@ -79,6 +79,15 @@ Softwares: TensorFlow, Scikit-learn, Keras, Git, LATEX, Microsoft orce, NumPy, P
     </item>
     
     <item>
+      <title>Experience</title>
+      <link>http://chuankaizhao.github.io/home/experience/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://chuankaizhao.github.io/home/experience/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Recent Posts</title>
       <link>http://chuankaizhao.github.io/home/posts/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 -0500</pubDate>
@@ -88,22 +97,18 @@ Softwares: TensorFlow, Scikit-learn, Keras, Git, LATEX, Microsoft orce, NumPy, P
     </item>
     
     <item>
-      <title>Projects</title>
-      <link>http://chuankaizhao.github.io/home/projects/</link>
+      <title>Honors &amp; Awards</title>
+      <link>http://chuankaizhao.github.io/home/awards/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 -0500</pubDate>
       
-      <guid>http://chuankaizhao.github.io/home/projects/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Custom Section</title>
-      <link>http://chuankaizhao.github.io/home/teaching/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 -0500</pubDate>
-      
-      <guid>http://chuankaizhao.github.io/home/teaching/</guid>
-      <description>This is an example of using the custom widget to create your own homepage section.
-To remove this section, either delete content/home/teaching.md or edit the frontmatter of the file to deactivate the widget by setting active = false.</description>
+      <guid>http://chuankaizhao.github.io/home/awards/</guid>
+      <description>Popular Choice Poster Award, Biophysics Graduate Symposium, University of Illinois, 2018
+Hanratty Travel Award, University of Illinois at Urbana-Champaign, 2018
+3M Corporate Fellowship, University of Illinois at Urbana-Champaign, 2018-2019
+List of Excellent Teachers, University of Illinois at Urbana-Champaign, 2017
+Outstanding Graduate Award (top 5%), Shanghai Jiao Tong University, 2015
+National Endeavor Scholarship (top 5%), Shanghai Jiao Tong University, 2015
+Overseas Study Scholarship (first class, 1%), Shanghai Jiao Tong University, 2014</description>
     </item>
     
     <item>
