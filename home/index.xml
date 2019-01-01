@@ -19,7 +19,7 @@
       
       <guid>http://chuankaizhao.github.io/home/about/</guid>
       <description>Biography I am currently a Ph.D. candidate in Chemical and Biomolecular Engineering at the University of Illinois at Urbana-Champaign, advised by Professor Diwakar Shukla. Also, I am enrolled in the Graduate Concentration program in Computational Science and Engineering at Illinois.
-My research is mainly focused on combining principles and theory of machine learning to applications of atomistic simulations in understanding complex biological and chemical processes. I develop and integrate state-of-the-art computational and statistical methods to understand biomolecule and polymer dynamics related to fields in protein-ligand binding, protein-DNA and protein-protein interactions, as well as polymer self-assembly.</description>
+My research is mainly focused on combining principles and theory of machine learning to applications of molecular simulations in understanding complex biological and chemical processes. I develop and integrate state-of-the-art computational and statistical methods to understand biomolecule and polymer dynamics related to fields in protein-ligand binding, protein-DNA and protein-protein interactions, as well as polymer self-assembly.</description>
     </item>
     
     <item>
@@ -32,14 +32,22 @@ My research is mainly focused on combining principles and theory of machine lear
     </item>
     
     <item>
+      <title>Experience</title>
+      <link>http://chuankaizhao.github.io/home/experience/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://chuankaizhao.github.io/home/experience/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Skills</title>
       <link>http://chuankaizhao.github.io/home/skills/</link>
       <pubDate>Wed, 20 Sep 2017 00:00:00 -0500</pubDate>
       
       <guid>http://chuankaizhao.github.io/home/skills/</guid>
-      <description>Technical skills: molecular dynamics, kinetic Monte Carlo, Markov state model, Statistics, Machine learning, Deep learning, Data analysis, Scientific visualization, Algorithms, Data structures, Bioinformatics, Cheminformatics, Computer-aided design, High-performance computing, GPU programming, Web development
-Programming: experienced in Python, C/C++, CUDA, shell scripting, SQL; exposure to JavaScript, HTML, MATLAB
-Softwares: TensorFlow, Scikit-learn, Keras, Git, LATEX, Microsoft orce, NumPy, Pandas, Matplotlib, D3.js</description>
+      <description>Technical skills:
+ Expertized in large-scale molecular dynamics (MD) simulations, and Markov modeling on time series data from molecular simulations. Experienced in advanced sampling and computational chemistry methods such as metadynamics, umbrella sampling, replica-exchange MD and alchemical free energy methods. Experienced in high performance computing, large-scale data analysis, statistical modeling and scientific visualization. Familiar with machine learning and deep learning algorithms, and their applications in molecular simulations and drug discovery. Familiar with theory and tools of bioinformatics and cheminformatics.</description>
     </item>
     
     <item>
@@ -70,7 +78,7 @@ Softwares: TensorFlow, Scikit-learn, Keras, Git, LATEX, Microsoft orce, NumPy, P
     </item>
     
     <item>
-      <title>Recent &amp; Upcoming Talks</title>
+      <title>Talks &amp; Poster Presentations</title>
       <link>http://chuankaizhao.github.io/home/talks/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 -0500</pubDate>
       
@@ -79,11 +87,22 @@ Softwares: TensorFlow, Scikit-learn, Keras, Git, LATEX, Microsoft orce, NumPy, P
     </item>
     
     <item>
-      <title>Experience</title>
-      <link>http://chuankaizhao.github.io/home/experience/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <title>Honors &amp; Awards</title>
+      <link>http://chuankaizhao.github.io/home/awards/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0500</pubDate>
       
-      <guid>http://chuankaizhao.github.io/home/experience/</guid>
+      <guid>http://chuankaizhao.github.io/home/awards/</guid>
+      <description>University of Illinois at Urbana-Champaign:
+ Popular Choice Poster Award, Illinois Biophysics Graduate Symposium, 2018 Hanratty Travel Award, 2018 3M Corporate Fellowship, 2018-2019 List of Excellent Teachers, 2017  Shanghai Jiao Tong University:
+ Outstanding Graduate Award, 2015 National Endeavor Scholarship (top 5%), 2015 Overseas Study Scholarship (first class, 1%), 2014 Liu Garden Scholarship (top 5%), 2013 Academic Excellence Scholarship (top 5%), 2012-2014 Excellent Project Award, Undergraduate Innovation Program, 2014  </description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>http://chuankaizhao.github.io/home/contact/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0500</pubDate>
+      
+      <guid>http://chuankaizhao.github.io/home/contact/</guid>
       <description></description>
     </item>
     
@@ -97,35 +116,11 @@ Softwares: TensorFlow, Scikit-learn, Keras, Git, LATEX, Microsoft orce, NumPy, P
     </item>
     
     <item>
-      <title>Honors &amp; Awards</title>
-      <link>http://chuankaizhao.github.io/home/awards/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 -0500</pubDate>
-      
-      <guid>http://chuankaizhao.github.io/home/awards/</guid>
-      <description>Popular Choice Poster Award, Biophysics Graduate Symposium, University of Illinois, 2018
-Hanratty Travel Award, University of Illinois at Urbana-Champaign, 2018
-3M Corporate Fellowship, University of Illinois at Urbana-Champaign, 2018-2019
-List of Excellent Teachers, University of Illinois at Urbana-Champaign, 2017
-Outstanding Graduate Award (top 5%), Shanghai Jiao Tong University, 2015
-National Endeavor Scholarship (top 5%), Shanghai Jiao Tong University, 2015
-Overseas Study Scholarship (first class, 1%), Shanghai Jiao Tong University, 2014</description>
-    </item>
-    
-    <item>
       <title>Tags</title>
       <link>http://chuankaizhao.github.io/home/tags/</link>
       <pubDate>Wed, 20 Sep 2017 00:00:00 -0500</pubDate>
       
       <guid>http://chuankaizhao.github.io/home/tags/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Contact</title>
-      <link>http://chuankaizhao.github.io/home/contact/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 -0500</pubDate>
-      
-      <guid>http://chuankaizhao.github.io/home/contact/</guid>
       <description></description>
     </item>
     

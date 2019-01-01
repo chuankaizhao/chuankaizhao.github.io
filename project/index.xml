@@ -23,16 +23,6 @@ Here, we utilize large-scale molecular dynamics simulations and statistical mode
     </item>
     
     <item>
-      <title>Dynamic-template-directed multiscale assembly</title>
-      <link>http://chuankaizhao.github.io/project/self-assembly/</link>
-      <pubDate>Sat, 22 Dec 2018 16:20:16 -0600</pubDate>
-      
-      <guid>http://chuankaizhao.github.io/project/self-assembly/</guid>
-      <description>In recent years, solution processable semiconducting polymers have been under intense investigations due to their diverse applications from printed electronics to biomedical devices. However, controlling the macromolecular assembly across length scales during solution coating remains a key challenge, largely due to the disparity in timescales of polymer assembly and high-throughput printing/coating.
-In collaboration with Professor Ying Diao Group at Illinois, we propose the concept of dynamic templating to expedite polymer nucleation and the ensuing assembly process.</description>
-    </item>
-    
-    <item>
       <title>Efficient Sampling of Protein Dynamics</title>
       <link>http://chuankaizhao.github.io/project/sampling/</link>
       <pubDate>Sat, 22 Dec 2018 16:20:16 -0600</pubDate>
@@ -55,10 +45,20 @@ Computational chemistry and machine learning frameworks have become indispensabl
     <item>
       <title>TALE-DNA Binding and Specificity</title>
       <link>http://chuankaizhao.github.io/project/tale-dna-binding/</link>
-      <pubDate>Sat, 22 Dec 2018 16:20:16 -0600</pubDate>
+      <pubDate>Sat, 01 Dec 2018 16:20:16 -0600</pubDate>
       
       <guid>http://chuankaizhao.github.io/project/tale-dna-binding/</guid>
       <description>Recent advances in biotechnology and molecular biology have opened new and efficient routes for the direct modification of large intact genomes. Programmable nucleases such as the CRISPR/Cas9 system and transcription activator-like ector nucleases (TALENs) provide a powerful set of molecular tools for genome engineering. Despite a growing interest in gene editing, several open questions remain regarding the molecular machinery in these systems, including the fundamental search and binding behavior as well as the role of non-target binding and specificity.</description>
+    </item>
+    
+    <item>
+      <title>Dynamic-template-directed multiscale assembly</title>
+      <link>http://chuankaizhao.github.io/project/self-assembly/</link>
+      <pubDate>Sat, 22 Dec 2018 16:20:16 -0600</pubDate>
+      
+      <guid>http://chuankaizhao.github.io/project/self-assembly/</guid>
+      <description>In recent years, solution processable semiconducting polymers have been under intense investigations due to their diverse applications from printed electronics to biomedical devices. However, controlling the macromolecular assembly across length scales during solution coating remains a key challenge, largely due to the disparity in timescales of polymer assembly and high-throughput printing/coating.
+In collaboration with Professor Ying Diao Group at Illinois, we propose the concept of dynamic templating to expedite polymer nucleation and the ensuing assembly process.</description>
     </item>
     
   </channel>

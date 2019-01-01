@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; Chuankai Zhao 2018</copyright>
-    <lastBuildDate>Sun, 23 Dec 2018 00:00:00 -0600</lastBuildDate>
+    <lastBuildDate>Sun, 23 Dec 2018 16:20:16 -0600</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
@@ -19,18 +19,6 @@
       <description>&lt;p&gt;Plant hormones, the small molecules produced in plants, regulate all aspects of plant activities such as growth, development and stress responses. In recent years, substantial structural and biochemical studies have achieved significant advances in understanding the molecular mechanism of plant hormone perceptions by their receptors and subsequent activation of signaling cascades. However, dynamic and energetic aspects of plant hormone perception and subsequent receptor conformational change processes remain elusive.&lt;/p&gt;
 
 &lt;p&gt;Here, we utilize large-scale molecular dynamics simulations and statistical modeling approaches to uncover structural, dynamic, energetic basis of receptor-hormone recognitions, their down-regulations by post-translational modifications, and protein-protein interactions involved in signaling networks. We aim to utilize these computational tools to obtain deep understandings of the activation processes of plant hormone receptors, which will faciliate future chemical design and protein engineering efforts in regulating plant activities.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Dynamic-template-directed multiscale assembly</title>
-      <link>http://chuankaizhao.github.io/project/self-assembly/</link>
-      <pubDate>Sat, 22 Dec 2018 16:20:16 -0600</pubDate>
-      
-      <guid>http://chuankaizhao.github.io/project/self-assembly/</guid>
-      <description>&lt;p&gt;In recent years, solution processable semiconducting polymers have been under intense investigations due to their diverse applications from printed electronics to biomedical devices. However, controlling the macromolecular assembly across length scales during solution coating remains a key challenge, largely due to the disparity in timescales of polymer assembly and high-throughput printing/coating.&lt;/p&gt;
-
-&lt;p&gt;In collaboration with Professor &lt;a href=&#34;http://diao.scs.illinois.edu/Diao_Lab/Home.html&#34; target=&#34;_blank&#34;&gt;Ying Diao&lt;/a&gt; Group at Illinois, we propose the concept of dynamic templating to expedite polymer nucleation and the ensuing assembly process. We have employed ionic liquids as the dynamic template in meniscus-guided coating experiments, which results in highly aligned, highly crystalline donor-acceptor polymer thin films over large area and promoted charge transport. Our molecular dynamics simulations help to unravel the key molecular mechanism underlying the dynamic-template-directed polymer assembly process. Following our previous work, we are actively developing new dynamic templates for polymer assembly processes.&lt;/p&gt;
 </description>
     </item>
     
@@ -63,7 +51,7 @@
     <item>
       <title>TALE-DNA Binding and Specificity</title>
       <link>http://chuankaizhao.github.io/project/tale-dna-binding/</link>
-      <pubDate>Sat, 22 Dec 2018 16:20:16 -0600</pubDate>
+      <pubDate>Sat, 01 Dec 2018 16:20:16 -0600</pubDate>
       
       <guid>http://chuankaizhao.github.io/project/tale-dna-binding/</guid>
       <description>&lt;p&gt;Recent advances in biotechnology and molecular biology have opened new and efficient routes for the direct modification of large intact genomes. Programmable nucleases such as the CRISPR/Cas9 system and transcription activator-like ector nucleases (TALENs) provide a powerful set of molecular tools for genome engineering. Despite a growing interest in gene editing, several open questions remain regarding the molecular machinery in these systems, including the fundamental search and binding behavior as well as the role of non-target binding and specificity.&lt;/p&gt;
@@ -75,10 +63,31 @@
     <item>
       <title>Divalent Cations Enhance TALE-DNA Binding Specificity</title>
       <link>http://chuankaizhao.github.io/publication/2019-tale/</link>
-      <pubDate>Thu, 20 Dec 2018 00:00:00 -0600</pubDate>
+      <pubDate>Tue, 01 Jan 2019 05:00:00 -0600</pubDate>
       
       <guid>http://chuankaizhao.github.io/publication/2019-tale/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Dewetting Controls Plant Hormone Perception and Initiation of Drought Resistance Signaling</title>
+      <link>http://chuankaizhao.github.io/publication/2019-structure/</link>
+      <pubDate>Tue, 01 Jan 2019 04:00:00 -0600</pubDate>
+      
+      <guid>http://chuankaizhao.github.io/publication/2019-structure/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dynamic-template-directed multiscale assembly</title>
+      <link>http://chuankaizhao.github.io/project/self-assembly/</link>
+      <pubDate>Sat, 22 Dec 2018 16:20:16 -0600</pubDate>
+      
+      <guid>http://chuankaizhao.github.io/project/self-assembly/</guid>
+      <description>&lt;p&gt;In recent years, solution processable semiconducting polymers have been under intense investigations due to their diverse applications from printed electronics to biomedical devices. However, controlling the macromolecular assembly across length scales during solution coating remains a key challenge, largely due to the disparity in timescales of polymer assembly and high-throughput printing/coating.&lt;/p&gt;
+
+&lt;p&gt;In collaboration with Professor &lt;a href=&#34;http://diao.scs.illinois.edu/Diao_Lab/Home.html&#34; target=&#34;_blank&#34;&gt;Ying Diao&lt;/a&gt; Group at Illinois, we propose the concept of dynamic templating to expedite polymer nucleation and the ensuing assembly process. We have employed ionic liquids as the dynamic template in meniscus-guided coating experiments, which results in highly aligned, highly crystalline donor-acceptor polymer thin films over large area and promoted charge transport. Our molecular dynamics simulations help to unravel the key molecular mechanism underlying the dynamic-template-directed polymer assembly process. Following our previous work, we are actively developing new dynamic templates for polymer assembly processes.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -91,11 +100,47 @@
     </item>
     
     <item>
-      <title>Dewetting Controls Plant Hormone Perception and Initiation of Drought Resistance Signaling</title>
-      <link>http://chuankaizhao.github.io/publication/2019-structure/</link>
-      <pubDate>Wed, 05 Dec 2018 00:00:00 -0600</pubDate>
+      <title>Structural, dynamic and energetic basis of plant hormone signal transduction</title>
+      <link>http://chuankaizhao.github.io/talk/2018-pru-seminar/</link>
+      <pubDate>Fri, 09 Nov 2018 12:00:00 -1300</pubDate>
       
-      <guid>http://chuankaizhao.github.io/publication/2019-structure/</guid>
+      <guid>http://chuankaizhao.github.io/talk/2018-pru-seminar/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dewetting controls plant hormone perception and initiation of drought resistance signaling</title>
+      <link>http://chuankaizhao.github.io/talk/2018-chbe-symposium/</link>
+      <pubDate>Fri, 12 Oct 2018 15:00:00 -1520</pubDate>
+      
+      <guid>http://chuankaizhao.github.io/talk/2018-chbe-symposium/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Complex dynamics of hormone perception and receptor activation in plant drought resistance signaling</title>
+      <link>http://chuankaizhao.github.io/talk/2018-acs-fall-boston/</link>
+      <pubDate>Sun, 19 Aug 2018 18:30:00 -2030</pubDate>
+      
+      <guid>http://chuankaizhao.github.io/talk/2018-acs-fall-boston/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Computational investigation into the activation of abscisic acid signaling for drought stress responses in plants</title>
+      <link>http://chuankaizhao.github.io/talk/2018-grc-pmb/</link>
+      <pubDate>Wed, 13 Jun 2018 16:00:00 -1800</pubDate>
+      
+      <guid>http://chuankaizhao.github.io/talk/2018-grc-pmb/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>How do plants perceive hormones to activate drought resistance signaling?</title>
+      <link>http://chuankaizhao.github.io/talk/2017-monsanto-symposium/</link>
+      <pubDate>Fri, 21 Jul 2017 10:00:00 -1200</pubDate>
+      
+      <guid>http://chuankaizhao.github.io/talk/2017-monsanto-symposium/</guid>
       <description></description>
     </item>
     
@@ -109,11 +154,11 @@
     </item>
     
     <item>
-      <title>Fabrication of platinum submonolayer electrodes and their high electrocatalytic activities for ammonia oxidation</title>
-      <link>http://chuankaizhao.github.io/publication/2015-electrochimica-acta/</link>
-      <pubDate>Sun, 20 Sep 2015 09:31:49 -0600</pubDate>
+      <title>Surface-directed assembly for large-area coating of highly-aligned conjugated polymer thin films</title>
+      <link>http://chuankaizhao.github.io/talk/2017-acs-spring-polymer/</link>
+      <pubDate>Wed, 05 Apr 2017 10:45:00 -1100</pubDate>
       
-      <guid>http://chuankaizhao.github.io/publication/2015-electrochimica-acta/</guid>
+      <guid>http://chuankaizhao.github.io/talk/2017-acs-spring-polymer/</guid>
       <description></description>
     </item>
     

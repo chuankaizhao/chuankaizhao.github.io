@@ -12,5 +12,95 @@
 	<atom:link href="http://chuankaizhao.github.io/talk/index.xml" rel="self" type="application/rss+xml" />
     
     
+    <item>
+      <title>Structural, dynamic and energetic basis of plant hormone signal transduction</title>
+      <link>http://chuankaizhao.github.io/talk/2018-pru-seminar/</link>
+      <pubDate>Fri, 09 Nov 2018 12:00:00 -1300</pubDate>
+      
+      <guid>http://chuankaizhao.github.io/talk/2018-pru-seminar/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dewetting controls plant hormone perception and initiation of drought resistance signaling</title>
+      <link>http://chuankaizhao.github.io/talk/2018-chbe-symposium/</link>
+      <pubDate>Fri, 12 Oct 2018 15:00:00 -1520</pubDate>
+      
+      <guid>http://chuankaizhao.github.io/talk/2018-chbe-symposium/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Complex dynamics of hormone perception and receptor activation in plant drought resistance signaling</title>
+      <link>http://chuankaizhao.github.io/talk/2018-acs-fall-boston/</link>
+      <pubDate>Sun, 19 Aug 2018 18:30:00 -2030</pubDate>
+      
+      <guid>http://chuankaizhao.github.io/talk/2018-acs-fall-boston/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Computational investigation into the activation of abscisic acid signaling for drought stress responses in plants</title>
+      <link>http://chuankaizhao.github.io/talk/2018-grc-pmb/</link>
+      <pubDate>Wed, 13 Jun 2018 16:00:00 -1800</pubDate>
+      
+      <guid>http://chuankaizhao.github.io/talk/2018-grc-pmb/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>How do plants perceive hormones to activate drought resistance signaling?</title>
+      <link>http://chuankaizhao.github.io/talk/2017-monsanto-symposium/</link>
+      <pubDate>Fri, 21 Jul 2017 10:00:00 -1200</pubDate>
+      
+      <guid>http://chuankaizhao.github.io/talk/2017-monsanto-symposium/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Surface-directed assembly for large-area coating of highly-aligned conjugated polymer thin films</title>
+      <link>http://chuankaizhao.github.io/talk/2017-acs-spring-polymer/</link>
+      <pubDate>Wed, 05 Apr 2017 10:45:00 -1100</pubDate>
+      
+      <guid>http://chuankaizhao.github.io/talk/2017-acs-spring-polymer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Elucidating binding mechanisms of ABA analogues: Activation of PYL5 receptor by pyrabactin and quinabactin</title>
+      <link>http://chuankaizhao.github.io/talk/2017-acs-spring-aba/</link>
+      <pubDate>Tue, 04 Apr 2017 18:00:00 -2000</pubDate>
+      
+      <guid>http://chuankaizhao.github.io/talk/2017-acs-spring-aba/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Machine Learning Guided Ligand-Protein Simulation Approach Elucidates the Binding Mechanism of Abscisic Acid</title>
+      <link>http://chuankaizhao.github.io/talk/2017-bps/</link>
+      <pubDate>Tue, 14 Feb 2017 00:00:00 -0600</pubDate>
+      
+      <guid>http://chuankaizhao.github.io/talk/2017-bps/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Markov State Models Provide Insights into Dynamic Modulation of Protein Function</title>
+      <link>http://chuankaizhao.github.io/talk/2016-aiche-markov-model/</link>
+      <pubDate>Mon, 14 Nov 2016 18:00:00 -2000</pubDate>
+      
+      <guid>http://chuankaizhao.github.io/talk/2016-aiche-markov-model/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Design of Optimal Experimental Probes for Protein Dynamics Using Machine Learning and Variational Approach to Modeling Conformational Kinetics</title>
+      <link>http://chuankaizhao.github.io/talk/2016-aiche-design-probes/</link>
+      <pubDate>Mon, 14 Nov 2016 13:10:00 -1330</pubDate>
+      
+      <guid>http://chuankaizhao.github.io/talk/2016-aiche-design-probes/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
