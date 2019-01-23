@@ -47,7 +47,7 @@ My research is mainly focused on combining principles and theory of machine lear
       
       <guid>http://chuankaizhao.github.io/home/skills/</guid>
       <description>Technical skills:
- Expertized in molecular dynamics (MD), Monte Carlo simulations, biased sampling methods including metadynamics, umbrella sampling and replica-exchange MD, as well as alchemical free energy methods. Experienced in Markov modeling on time series data from long timescale molecular simulations. Experienced in high performance computing, large-scale data analysis, statistical modeling and scientific visualization. Familiar with machine learning and deep learning algorithms, and their applications in molecular simulations and drug discovery.</description>
+ Expertized in all atom and coarse grained molecular dynamics (MD), Monte Carlo simulations, biased sampling methods including metadynamics, umbrella sampling and replica-exchange MD, as well as alchemical free energy methods. Expertized in stochastic modeling of time series, particularly in Markov modeling of complex protein dynamics from large-scale molecular simulations. Experienced in high-performance computing, large-scale data analysis and modeling, and scientific visualization. Familiar with machine learning and deep learning algorithms, and their applications in molecular simulations and drug discovery.</description>
     </item>
     
     <item>
