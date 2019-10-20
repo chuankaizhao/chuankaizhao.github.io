@@ -19,7 +19,7 @@
       
       <guid>http://chuankaizhao.github.io/home/about/</guid>
       <description>Biography I am currently a Ph.D. candidate in Chemical and Biomolecular Engineering at the University of Illinois at Urbana-Champaign, advised by Professor Diwakar Shukla. Also, I am enrolled in the Graduate Concentration program in Computational Science and Engineering at Illinois.
-My research is mainly focused on combining principles and theory of machine learning to applications of molecular simulations in understanding complex biological and chemical processes. I develop and integrate state-of-the-art computational and statistical methods to understand biomolecule and polymer dynamics related to fields in protein-ligand binding, protein-DNA and protein-protein interactions, as well as polymer self-assembly.</description>
+My Ph.D. research is mainly focused on combining statistics and machine learning to applications of molecular simulations in understanding complex biological and chemical processes, including protein-ligand binding, protein-DNA and protein-protein interactions, as well as polymer self-assembly.</description>
     </item>
     
     <item>
@@ -47,7 +47,7 @@ My research is mainly focused on combining principles and theory of machine lear
       
       <guid>http://chuankaizhao.github.io/home/skills/</guid>
       <description>Technical skills:
- Expertized in all atom and coarse grained molecular dynamics (MD), Monte Carlo simulations, biased sampling methods including metadynamics, umbrella sampling and replica-exchange MD. Expertized in stochastic modeling of time series, particularly in Markov modeling of complex protein dynamics from large-scale molecular simulations. Experienced in statistical free energy methods, including free energy perturbation, thermodynamic integration, weighted histogram analysis method (WHAM), multistate Bennett acceptance ratio (MBAR), and alchemical free energy calculations.</description>
+ Expertized in all atom and coarse grained molecular dynamics (MD), Monte Carlo simulations, biased sampling methods including metadynamics, umbrella sampling and replica-exchange MD. Expertized in stochastic modeling of time series data, particularly in Markov modeling of complex protein dynamics from large-scale MD simulations. Experienced in statistical free energy methods, including free energy perturbation, thermodynamic integration, weighted histogram analysis method (WHAM), multistate Bennett acceptance ratio (MBAR), and alchemical free energy calculations Experienced in high-performance computing, parallel programming and computing in multi-core CPU and GPU.</description>
     </item>
     
     <item>
@@ -93,7 +93,7 @@ My research is mainly focused on combining principles and theory of machine lear
       
       <guid>http://chuankaizhao.github.io/home/awards/</guid>
       <description>University of Illinois at Urbana-Champaign:
- Glenn E. and Barbara R. Ullyot Graduate Fellowship, 2019-2020 Outstanding Student Research Award, GLCACS 23rd Annual Conference, 2019 First Prize, Science &amp;amp; Spirits Poster Competition, University of Illinois, 2019 3M Corporate Fellowship, University of Illinois, 2018-2019 Popular Choice Poster Award, Illinois Biophysics Graduate Symposium, 2018 Hanratty Travel Award, University of Illinois, 2018 List of Excellent Teachers, University of Illinois, 2017  Shanghai Jiao Tong University (SJTU):</description>
+ Glenn E. and Barbara R. Ullyot Graduate Fellowship, University of Illinois, 2019-2020 Outstanding Student Research Award (Chemistry/Pharmaceutical), GLCACS 23rd Annual Conference, 2019 First Prize, Science &amp;amp; Spirits Poster Competition, University of Illinois, 2019 3M Corporate Fellowship, University of Illinois, 2018-2019 Popular Choice Poster Award, Illinois Biophysics Graduate Symposium, 2018 Hanratty Travel Award, University of Illinois, 2018 List of Excellent Teachers, University of Illinois, 2017  Shanghai Jiao Tong University (SJTU):</description>
     </item>
     
     <item>

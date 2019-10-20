@@ -18,18 +18,26 @@
       <pubDate>Sun, 23 Dec 2018 16:20:16 -0600</pubDate>
       
       <guid>http://chuankaizhao.github.io/project/plant-hormone-signaling/</guid>
-      <description>Plant hormones, the small molecules produced in plants, regulate all aspects of plant activities such as growth, development and stress responses. In recent years, substantial structural and biochemical studies have achieved significant advances in understanding the molecular mechanism of plant hormone perceptions by their receptors and subsequent activation of signaling cascades. However, dynamic and energetic aspects of plant hormone perception and subsequent receptor conformational change processes remain elusive.
-Here, we utilize large-scale molecular dynamics simulations and statistical modeling approaches to uncover structural, dynamic, energetic basis of receptor-hormone recognitions, their down-regulations by post-translational modifications, and protein-protein interactions involved in signaling networks.</description>
+      <description>Plant hormones, the small molecules produced in plants, regulate all aspects of plant activities such as growth, development and stress responses. In recent years, substantial structural and biochemical studies have achieved significant advances in understanding the molecular mechanism of plant hormone perceptions by their receptors and subsequent activation of signaling cascades. However, dynamic and energetic aspects of plant hormone perception as well as subsequent receptor conformational change and activation processes remain elusive.</description>
     </item>
     
     <item>
-      <title>Efficient Sampling of Protein Dynamics</title>
-      <link>http://chuankaizhao.github.io/project/sampling/</link>
+      <title>Experimental-guided Adaptive Sampling of Protein Dynamics</title>
+      <link>http://chuankaizhao.github.io/project/saxs-sampling/</link>
       <pubDate>Sat, 22 Dec 2018 16:20:16 -0600</pubDate>
       
-      <guid>http://chuankaizhao.github.io/project/sampling/</guid>
+      <guid>http://chuankaizhao.github.io/project/saxs-sampling/</guid>
       <description>Molecular simulations can be utilized to predict protein structure ensembles and dynamics, though sufficient sampling of molecular ensembles and identification of key biologically relevant conformations remains challenging. To partially address thess challenges, we utilize distributed computing techniques and advanced Markov state models for obtaining mechanistic insights into bimolecular dynamics. We aim to further develop these sampling methods for molecular simulations to improve time efficiency and prediction accuracy.
-Low-resolution experimental techniques provide valuable structural information on biomolecule at near-native conditions, which are often combined with molecular simulations to determine and refine protein structural ensembles.</description>
+Low-resolution experimental techniques, such as small angle x-ray scattering, provide valuable structural information on biomolecule at near-native conditions, which are often combined with molecular simulations to determine and refine protein structural ensembles.</description>
+    </item>
+    
+    <item>
+      <title>NAMD Development for Deep Learning Based Sampling</title>
+      <link>http://chuankaizhao.github.io/project/namd-development/</link>
+      <pubDate>Sat, 22 Dec 2018 16:20:16 -0600</pubDate>
+      
+      <guid>http://chuankaizhao.github.io/project/namd-development/</guid>
+      <description>The capabilities of molecular dynamics (MD) simulations have been limited by the gap between the large timescales for biological processes and the short-time range accessible to simulations. To partially address this limitation, numerous enhanced sampling approaches have been developed, in which the sampling of configuration space is accelerated along some predefined collective variables (CVs) of the system. Dimensionality reduction techniques present a systematic data-driven approach to identify a small groups of CVs by learning existing simulation data.</description>
     </item>
     
     <item>
@@ -43,22 +51,22 @@ Computational chemistry and machine learning frameworks have become indispensabl
     </item>
     
     <item>
+      <title>Dynamic-template-directed multiscale assembly</title>
+      <link>http://chuankaizhao.github.io/project/dynamic-templates/</link>
+      <pubDate>Sat, 22 Dec 2018 16:20:16 -0600</pubDate>
+      
+      <guid>http://chuankaizhao.github.io/project/dynamic-templates/</guid>
+      <description>In recent years, solution processable semiconducting polymers have been under intense investigations due to their diverse applications from printed electronics to biomedical devices. However, controlling the macromolecular assembly across length scales during solution coating remains a key challenge, largely due to the disparity in timescales of polymer assembly and high-throughput printing/coating.
+In collaboration with Ying Diao Group at Illinois, we proposed the concept of dynamic templating to expedite polymer nucleation and the ensuing assembly process.</description>
+    </item>
+    
+    <item>
       <title>TALE-DNA Binding and Specificity</title>
       <link>http://chuankaizhao.github.io/project/tale-dna-binding/</link>
       <pubDate>Sat, 01 Dec 2018 16:20:16 -0600</pubDate>
       
       <guid>http://chuankaizhao.github.io/project/tale-dna-binding/</guid>
       <description>Recent advances in biotechnology and molecular biology have opened new and efficient routes for the direct modification of large intact genomes. Programmable nucleases such as the CRISPR/Cas9 system and transcription activator-like ector nucleases (TALENs) provide a powerful set of molecular tools for genome engineering. Despite a growing interest in gene editing, several open questions remain regarding the molecular machinery in these systems, including the fundamental search and binding behavior as well as the role of non-target binding and specificity.</description>
-    </item>
-    
-    <item>
-      <title>Dynamic-template-directed multiscale assembly</title>
-      <link>http://chuankaizhao.github.io/project/self-assembly/</link>
-      <pubDate>Sat, 22 Dec 2018 16:20:16 -0600</pubDate>
-      
-      <guid>http://chuankaizhao.github.io/project/self-assembly/</guid>
-      <description>In recent years, solution processable semiconducting polymers have been under intense investigations due to their diverse applications from printed electronics to biomedical devices. However, controlling the macromolecular assembly across length scales during solution coating remains a key challenge, largely due to the disparity in timescales of polymer assembly and high-throughput printing/coating.
-In collaboration with Professor Ying Diao Group at Illinois, we propose the concept of dynamic templating to expedite polymer nucleation and the ensuing assembly process.</description>
     </item>
     
   </channel>

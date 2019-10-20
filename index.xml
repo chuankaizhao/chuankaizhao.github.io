@@ -16,23 +16,42 @@
       <pubDate>Sun, 23 Dec 2018 16:20:16 -0600</pubDate>
       
       <guid>http://chuankaizhao.github.io/project/plant-hormone-signaling/</guid>
-      <description>&lt;p&gt;Plant hormones, the small molecules produced in plants, regulate all aspects of plant activities such as growth, development and stress responses. In recent years, substantial structural and biochemical studies have achieved significant advances in understanding the molecular mechanism of plant hormone perceptions by their receptors and subsequent activation of signaling cascades. However, dynamic and energetic aspects of plant hormone perception and subsequent receptor conformational change processes remain elusive.&lt;/p&gt;
+      <description>&lt;p&gt;Plant hormones, the small molecules produced in plants, regulate all aspects of plant activities such as growth, development and stress responses. In recent years, substantial structural and biochemical studies have achieved significant advances in understanding the molecular mechanism of plant hormone perceptions by their receptors and subsequent activation of signaling cascades. However, dynamic and energetic aspects of plant hormone perception as well as subsequent receptor conformational change and activation processes remain elusive.&lt;/p&gt;
 
-&lt;p&gt;Here, we utilize large-scale molecular dynamics simulations and statistical modeling approaches to uncover structural, dynamic, energetic basis of receptor-hormone recognitions, their down-regulations by post-translational modifications, and protein-protein interactions involved in signaling networks. We aim to utilize these computational tools to obtain deep understandings of the activation processes of plant hormone receptors, which will faciliate future chemical design and protein engineering efforts in regulating plant activities.&lt;/p&gt;
+&lt;p&gt;Here, we utilized large-scale molecular dynamics simulations and statistical modeling approaches to uncover structural, dynamic, energetic basis of receptor-hormone recognitions, their down-regulations by post-translational modifications, and protein-protein interactions involved in plant signaling networks. In addition, we employed computational tools to faciliate the receptor engineering and agrochemical design to target plant hormone receptors. Overall, we aimed to utilize computational modeling to obtain deep understandings of the activation processes of plant hormone receptors, which will faciliate future chemical design and protein engineering efforts in regulating plant activities.&lt;/p&gt;
+
+&lt;p&gt;Relevant publications:
+1. Aldukhi F.†, Deb A.†, Zhao C., Moffett A.S. and Shukla D. (2019). Molecular Mechanism of Brassinosteroids Perception by the Plant Growth Receptor BRI1. Journal of Physical Chemistry B, under review. († denotes co-first author)
+2. Zhao C. and Shukla D. (2019). Molecular Basis of the Activation and Dissociation of Dimeric PYL2 Receptor in Abscisic Acid Signaling. Chemical Science, revision invited. (bioRxiv DOI: 10.&lt;sup&gt;1101&lt;/sup&gt;&amp;frasl;&lt;sub&gt;721761&lt;/sub&gt;)
+3. Shukla S.†, Zhao C.† and Shukla D. (2019). Dewetting Controls Plant Hormone Perception and Initiation of Drought Resistance Signaling. Structure, 27, 692-702.e3. († denotes co-first author)&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>Efficient Sampling of Protein Dynamics</title>
-      <link>http://chuankaizhao.github.io/project/sampling/</link>
+      <title>Experimental-guided Adaptive Sampling of Protein Dynamics</title>
+      <link>http://chuankaizhao.github.io/project/saxs-sampling/</link>
       <pubDate>Sat, 22 Dec 2018 16:20:16 -0600</pubDate>
       
-      <guid>http://chuankaizhao.github.io/project/sampling/</guid>
+      <guid>http://chuankaizhao.github.io/project/saxs-sampling/</guid>
       <description>&lt;p&gt;Molecular simulations can be utilized to predict protein structure ensembles and dynamics, though sufficient sampling of molecular ensembles and identification of key biologically relevant conformations remains challenging. To partially address thess challenges, we utilize distributed computing techniques and advanced Markov state models for obtaining mechanistic insights into bimolecular dynamics. We aim to further develop these sampling methods for molecular simulations to improve time efficiency and prediction accuracy.&lt;/p&gt;
 
-&lt;p&gt;Low-resolution experimental techniques provide valuable structural information on biomolecule at near-native conditions, which are often combined with molecular simulations to determine and refine protein structural ensembles. This project aims to integrate experimental data on protein ensemble and dynamics with Markov state model-based adaptive sampling strategy to enhance time efficiency of unbiased MD simulations and identify functionally relevant conformations of proteins and complexes.&lt;/p&gt;
+&lt;p&gt;Low-resolution experimental techniques, such as small angle x-ray scattering, provide valuable structural information on biomolecule at near-native conditions, which are often combined with molecular simulations to determine and refine protein structural ensembles. This project was to integrate sparse experimental and computational data on protein ensemble and dynamics with Markov state model-based adaptive sampling strategy to enhance time efficiency of unbiased MD simulations and identify functionally relevant conformations of proteins and complexes.&lt;/p&gt;
 
-&lt;p&gt;Also, we aim to develop and integrate deep learning frameworks to identify optimal reaction coordiantes for sampling biomolecular dynamics and modeling simulation data. We plan to implement these methods in the &lt;a href=&#34;http://www.ks.uiuc.edu/Research/namd/&#34; target=&#34;_blank&#34;&gt;NAMD software&lt;/a&gt;, a scalable molecular dynamics package developed at Illinois campus.&lt;/p&gt;
+&lt;p&gt;Relevant publication:
+1. Zhao C. and Shukla D. (2018). SAXS-guided Enhanced Unbiased Sampling for Structure Determination of Proteins and Complexes. Scientific Reports, 8, 17748.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>NAMD Development for Deep Learning Based Sampling</title>
+      <link>http://chuankaizhao.github.io/project/namd-development/</link>
+      <pubDate>Sat, 22 Dec 2018 16:20:16 -0600</pubDate>
+      
+      <guid>http://chuankaizhao.github.io/project/namd-development/</guid>
+      <description>&lt;p&gt;The capabilities of molecular dynamics (MD) simulations have been limited by the gap between the large timescales for biological processes and the short-time range accessible to simulations. To partially address this limitation, numerous enhanced sampling approaches have been developed, in which the sampling of configuration space is accelerated along some predefined collective variables (CVs) of the system. Dimensionality reduction techniques present a systematic
+data-driven approach to identify a small groups of CVs by learning existing simulation data. The set of CVs provide a suitable low-dimensional representation of high-dimensional configuration space, which have proven to be useful in analyzing MD simulation data and accelerated samplings.&lt;/p&gt;
+
+&lt;p&gt;In this project, we proposed to build a software platform in &lt;a href=&#34;http://www.ks.uiuc.edu/Research/namd/&#34; target=&#34;_blank&#34;&gt;NAMD software&lt;/a&gt; to support features of data-driven CV discovery and enhanced samplings using data-derived CVs. NAMD is currently one of the most popular molecular simulation software packages due to the implementations of a variety of enhanced sampling algorithms and the simple interfaces for defining different types of CVs. Integration of the data-driven CV discovery and enhanced sampling platform will further extend the functionalities of NAMD. In particular, the data-driven protocols can be critical for future MD simulations in dealing with increasingly complex systems. Also, the platform will provide developers an ease of use interface to develop and test new algorithms for CV discovery and enhanced sampling, which can thrive development of new algorithms and protocols.&lt;/p&gt;
 </description>
     </item>
     
@@ -49,6 +68,24 @@
     </item>
     
     <item>
+      <title>Dynamic-template-directed multiscale assembly</title>
+      <link>http://chuankaizhao.github.io/project/dynamic-templates/</link>
+      <pubDate>Sat, 22 Dec 2018 16:20:16 -0600</pubDate>
+      
+      <guid>http://chuankaizhao.github.io/project/dynamic-templates/</guid>
+      <description>&lt;p&gt;In recent years, solution processable semiconducting polymers have been under intense investigations due to their diverse applications from printed electronics to biomedical devices. However, controlling the macromolecular assembly across length scales during solution coating remains a key challenge, largely due to the disparity in timescales of polymer assembly and high-throughput printing/coating.&lt;/p&gt;
+
+&lt;p&gt;In collaboration with &lt;a href=&#34;http://diao.scs.illinois.edu/Diao_Lab/Home.html&#34; target=&#34;_blank&#34;&gt;Ying Diao&lt;/a&gt; Group at Illinois, we proposed the concept of dynamic templating to expedite polymer nucleation and the ensuing assembly process. We have designed the ionic-liquid-based and the ion-gel-based dynamic templates in meniscus-guided coating (MGC) experiments, which results in highly aligned, highly crystalline
+donor-acceptor polymer thin films over large area and promoted charge transport. We performed molecular dynamics simulations to understand the dynamictemplating mechanism. Notably, we demonstrated the surface reconfigurability of template as key to promoting
+template-polymer interactions, thereby lowering polymer nucleation barrier. In addition, we showed that multivalent interaction between the conjugated polymer and the ion-gel dynamic template facilitated by surface reconfigurability further enhances their interaction, thereby producing markedly enhanced templating effect compared to pure ionic liquids.&lt;/p&gt;
+
+&lt;p&gt;Relevant publications:
+1. Mohammadi E., Zhao C., Zhang F., Qu G., Jung S.-H., Lee J.-K., Zhao Q., Evans C., Lee J.-K., Shukla D. and Diao Y. (2019). Ion Gel Dynamic Templates for Large Modulation of Morphology and Charge Transport Properties of Solution-Coated Conjugated Polymer Thin Films. ACS Applied Materials &amp;amp; Interfaces, 11, 22561-22574.
+2. Mohammadi E., Zhao C., Meng Y., Qu G., Zhang F., Zhao X., Mei J., Zuo J., Shukla D. and Diao Y. (2017). Dynamic-Template-Directed Multiscale Assembly for Large-Area Coating of Highly-Aligned Conjugated Polymer Thin Films. Nature Communications, 8, 16070. (Highlighted on Illinois homepage, Science Magazine, EurekAlert!, Science Daily, Phys.org, etc.)&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>TALE-DNA Binding and Specificity</title>
       <link>http://chuankaizhao.github.io/project/tale-dna-binding/</link>
       <pubDate>Sat, 01 Dec 2018 16:20:16 -0600</pubDate>
@@ -56,7 +93,10 @@
       <guid>http://chuankaizhao.github.io/project/tale-dna-binding/</guid>
       <description>&lt;p&gt;Recent advances in biotechnology and molecular biology have opened new and efficient routes for the direct modification of large intact genomes. Programmable nucleases such as the CRISPR/Cas9 system and transcription activator-like ector nucleases (TALENs) provide a powerful set of molecular tools for genome engineering. Despite a growing interest in gene editing, several open questions remain regarding the molecular machinery in these systems, including the fundamental search and binding behavior as well as the role of non-target binding and specificity.&lt;/p&gt;
 
-&lt;p&gt;In collaboration with Professors &lt;a href=&#34;http://schroeder.scs.illinois.edu/&#34; target=&#34;_blank&#34;&gt;Charles M. Schroeder&lt;/a&gt; and &lt;a href=&#34;http://faculty.scs.illinois.edu/~zhaogrp/&#34; target=&#34;_blank&#34;&gt;Huimin Zhao&lt;/a&gt; Groups at Illinois, this project aims to combine experimental and computational approaches to elucidate the molecular mechanism of TALE protein specificity and its target binding to DNA. We utilize molecular simulation and statistical modeling to obtain insights into the structural and energetic basis of TALE-DNA binding.&lt;/p&gt;
+&lt;p&gt;In collaboration with Professors &lt;a href=&#34;http://schroeder.scs.illinois.edu/&#34; target=&#34;_blank&#34;&gt;Charles M. Schroeder&lt;/a&gt; and &lt;a href=&#34;http://faculty.scs.illinois.edu/~zhaogrp/&#34; target=&#34;_blank&#34;&gt;Huimin Zhao&lt;/a&gt; Groups at Illinois, this project aims to combine experimental and computational approaches to elucidate the molecular mechanism of TALE protein specificity and TALE binding to target and random DNA. We focused on studying the effects of solution conditions on TALE specificity. Using molecular simulations and mathematical modeling, we obtained structural and energetic insights into TALE-DNA binding mechanism.&lt;/p&gt;
+
+&lt;p&gt;Relevant publication:
+1. Cuculis L.†, Zhao C.†, Abil Z., Zhao H., Shukla D. and Schroeder C.M. (2019). Divalent Cations Promote TALE DNA-binding Specificity. Nucleic Acids Research, minor revision invited. († denotes co-first author)&lt;/p&gt;
 </description>
     </item>
     
@@ -106,18 +146,6 @@
     </item>
     
     <item>
-      <title>Dynamic-template-directed multiscale assembly</title>
-      <link>http://chuankaizhao.github.io/project/self-assembly/</link>
-      <pubDate>Sat, 22 Dec 2018 16:20:16 -0600</pubDate>
-      
-      <guid>http://chuankaizhao.github.io/project/self-assembly/</guid>
-      <description>&lt;p&gt;In recent years, solution processable semiconducting polymers have been under intense investigations due to their diverse applications from printed electronics to biomedical devices. However, controlling the macromolecular assembly across length scales during solution coating remains a key challenge, largely due to the disparity in timescales of polymer assembly and high-throughput printing/coating.&lt;/p&gt;
-
-&lt;p&gt;In collaboration with Professor &lt;a href=&#34;http://diao.scs.illinois.edu/Diao_Lab/Home.html&#34; target=&#34;_blank&#34;&gt;Ying Diao&lt;/a&gt; Group at Illinois, we propose the concept of dynamic templating to expedite polymer nucleation and the ensuing assembly process. We have employed ionic liquids as the dynamic template in meniscus-guided coating experiments, which results in highly aligned, highly crystalline donor-acceptor polymer thin films over large area and promoted charge transport. Our molecular dynamics simulations help to unravel the key molecular mechanism underlying the dynamic-template-directed polymer assembly process. Following our previous work, we are actively developing new dynamic templates for polymer assembly processes.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>SAXS-guided Enhanced Unbiased Sampling for Structure Determination of Proteins and Complexes</title>
       <link>http://chuankaizhao.github.io/publication/2018-scientific-reports/</link>
       <pubDate>Mon, 10 Dec 2018 04:00:00 -0600</pubDate>
@@ -150,15 +178,6 @@
       <pubDate>Sun, 19 Aug 2018 18:30:00 -2030</pubDate>
       
       <guid>http://chuankaizhao.github.io/talk/2018-acs-fall-boston/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Computational investigation into the activation of abscisic acid signaling for drought stress responses in plants</title>
-      <link>http://chuankaizhao.github.io/talk/2018-grc-pmb/</link>
-      <pubDate>Wed, 13 Jun 2018 16:00:00 -1800</pubDate>
-      
-      <guid>http://chuankaizhao.github.io/talk/2018-grc-pmb/</guid>
       <description></description>
     </item>
     
