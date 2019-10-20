@@ -11,7 +11,7 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Stochastic Modeling of Plant Hormone Signaling</title>
+      <title>Molecular and Stochastic Modeling of Plant Hormone Signaling</title>
       <link>http://chuankaizhao.github.io/project/plant-hormone-signaling/</link>
       <pubDate>Sun, 23 Dec 2018 16:20:16 -0600</pubDate>
       
@@ -128,6 +128,24 @@ template-polymer interactions, thereby lowering polymer nucleation barrier. In a
     </item>
     
     <item>
+      <title>Molecular basis and engineering of plant drought resistance signaling</title>
+      <link>http://chuankaizhao.github.io/talk/2019-glcacs/</link>
+      <pubDate>Sat, 27 Apr 2019 14:00:00 -1415</pubDate>
+      
+      <guid>http://chuankaizhao.github.io/talk/2019-glcacs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Molecular basis and engineering of plant drought resistance signaling</title>
+      <link>http://chuankaizhao.github.io/talk/2019-science-spirits/</link>
+      <pubDate>Mon, 22 Apr 2019 17:00:00 -1715</pubDate>
+      
+      <guid>http://chuankaizhao.github.io/talk/2019-science-spirits/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Divalent Cations Enhance TALE-DNA Binding Specificity</title>
       <link>http://chuankaizhao.github.io/publication/2019-tale/</link>
       <pubDate>Tue, 01 Jan 2019 05:00:00 -0600</pubDate>
@@ -160,24 +178,6 @@ template-polymer interactions, thereby lowering polymer nucleation barrier. In a
       <pubDate>Fri, 09 Nov 2018 12:00:00 -1300</pubDate>
       
       <guid>http://chuankaizhao.github.io/talk/2018-pru-seminar/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Dewetting controls plant hormone perception and initiation of drought resistance signaling</title>
-      <link>http://chuankaizhao.github.io/talk/2018-chbe-symposium/</link>
-      <pubDate>Fri, 12 Oct 2018 15:00:00 -1520</pubDate>
-      
-      <guid>http://chuankaizhao.github.io/talk/2018-chbe-symposium/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Complex dynamics of hormone perception and receptor activation in plant drought resistance signaling</title>
-      <link>http://chuankaizhao.github.io/talk/2018-acs-fall-boston/</link>
-      <pubDate>Sun, 19 Aug 2018 18:30:00 -2030</pubDate>
-      
-      <guid>http://chuankaizhao.github.io/talk/2018-acs-fall-boston/</guid>
       <description></description>
     </item>
     
