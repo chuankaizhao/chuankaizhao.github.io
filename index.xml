@@ -20,10 +20,15 @@
 
 &lt;p&gt;Here, we utilized large-scale molecular dynamics simulations and statistical modeling approaches to uncover structural, dynamic, energetic basis of receptor-hormone recognitions, their down-regulations by post-translational modifications, and protein-protein interactions involved in plant signaling networks. In addition, we employed computational tools to faciliate the receptor engineering and agrochemical design to target plant hormone receptors. Overall, we aimed to utilize computational modeling to obtain deep understandings of the activation processes of plant hormone receptors, which will faciliate future chemical design and protein engineering efforts in regulating plant activities.&lt;/p&gt;
 
-&lt;p&gt;Relevant publications:
-1. Aldukhi F.†, Deb A.†, Zhao C., Moffett A.S. and Shukla D. (2019). Molecular Mechanism of Brassinosteroids Perception by the Plant Growth Receptor BRI1. Journal of Physical Chemistry B, under review. († denotes co-first author)
-2. Zhao C. and Shukla D. (2019). Molecular Basis of the Activation and Dissociation of Dimeric PYL2 Receptor in Abscisic Acid Signaling. Chemical Science, revision invited. (bioRxiv DOI: 10.&lt;sup&gt;1101&lt;/sup&gt;&amp;frasl;&lt;sub&gt;721761&lt;/sub&gt;)
-3. Shukla S.†, Zhao C.† and Shukla D. (2019). Dewetting Controls Plant Hormone Perception and Initiation of Drought Resistance Signaling. Structure, 27, 692-702.e3. († denotes co-first author)&lt;/p&gt;
+&lt;p&gt;Relevant publications:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Aldukhi F.†, Deb A.†, Zhao C., Moffett A.S. and Shukla D. (2019). Molecular Mechanism of Brassinosteroids Perception by the Plant Growth Receptor BRI1. Journal of Physical Chemistry B, under review. († denotes co-first author)&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Zhao C. and Shukla D. (2019). Molecular Basis of the Activation and Dissociation of Dimeric PYL2 Receptor in Abscisic Acid Signaling. Chemical Science, revision invited. (bioRxiv DOI: 10.&lt;sup&gt;1101&lt;/sup&gt;&amp;frasl;&lt;sub&gt;721761&lt;/sub&gt;)&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Shukla S.†, Zhao C.† and Shukla D. (2019). Dewetting Controls Plant Hormone Perception and Initiation of Drought Resistance Signaling. Structure, 27, 692-702.e3. († denotes co-first author)&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
 </description>
     </item>
     
@@ -37,8 +42,11 @@
 
 &lt;p&gt;Low-resolution experimental techniques, such as small angle x-ray scattering, provide valuable structural information on biomolecule at near-native conditions, which are often combined with molecular simulations to determine and refine protein structural ensembles. This project was to integrate sparse experimental and computational data on protein ensemble and dynamics with Markov state model-based adaptive sampling strategy to enhance time efficiency of unbiased MD simulations and identify functionally relevant conformations of proteins and complexes.&lt;/p&gt;
 
-&lt;p&gt;Relevant publication:
-1. Zhao C. and Shukla D. (2018). SAXS-guided Enhanced Unbiased Sampling for Structure Determination of Proteins and Complexes. Scientific Reports, 8, 17748.&lt;/p&gt;
+&lt;p&gt;Relevant publication:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Zhao C. and Shukla D. (2018). SAXS-guided Enhanced Unbiased Sampling for Structure Determination of Proteins and Complexes. Scientific Reports, 8, 17748.&lt;/li&gt;
+&lt;/ol&gt;
 </description>
     </item>
     
@@ -79,9 +87,13 @@ data-driven approach to identify a small groups of CVs by learning existing simu
 donor-acceptor polymer thin films over large area and promoted charge transport. We performed molecular dynamics simulations to understand the dynamictemplating mechanism. Notably, we demonstrated the surface reconfigurability of template as key to promoting
 template-polymer interactions, thereby lowering polymer nucleation barrier. In addition, we showed that multivalent interaction between the conjugated polymer and the ion-gel dynamic template facilitated by surface reconfigurability further enhances their interaction, thereby producing markedly enhanced templating effect compared to pure ionic liquids.&lt;/p&gt;
 
-&lt;p&gt;Relevant publications:
-1. Mohammadi E., Zhao C., Zhang F., Qu G., Jung S.-H., Lee J.-K., Zhao Q., Evans C., Lee J.-K., Shukla D. and Diao Y. (2019). Ion Gel Dynamic Templates for Large Modulation of Morphology and Charge Transport Properties of Solution-Coated Conjugated Polymer Thin Films. ACS Applied Materials &amp;amp; Interfaces, 11, 22561-22574.
-2. Mohammadi E., Zhao C., Meng Y., Qu G., Zhang F., Zhao X., Mei J., Zuo J., Shukla D. and Diao Y. (2017). Dynamic-Template-Directed Multiscale Assembly for Large-Area Coating of Highly-Aligned Conjugated Polymer Thin Films. Nature Communications, 8, 16070. (Highlighted on Illinois homepage, Science Magazine, EurekAlert!, Science Daily, Phys.org, etc.)&lt;/p&gt;
+&lt;p&gt;Relevant publications:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Mohammadi E., Zhao C., Zhang F., Qu G., Jung S.-H., Lee J.-K., Zhao Q., Evans C., Lee J.-K., Shukla D. and Diao Y. (2019). Ion Gel Dynamic Templates for Large Modulation of Morphology and Charge Transport Properties of Solution-Coated Conjugated Polymer Thin Films. ACS Applied Materials &amp;amp; Interfaces, 11, 22561-22574.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Mohammadi E., Zhao C., Meng Y., Qu G., Zhang F., Zhao X., Mei J., Zuo J., Shukla D. and Diao Y. (2017). Dynamic-Template-Directed Multiscale Assembly for Large-Area Coating of Highly-Aligned Conjugated Polymer Thin Films. Nature Communications, 8, 16070. (Highlighted on Illinois homepage, Science Magazine, EurekAlert!, Science Daily, Phys.org, etc.)&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
 </description>
     </item>
     
@@ -95,8 +107,11 @@ template-polymer interactions, thereby lowering polymer nucleation barrier. In a
 
 &lt;p&gt;In collaboration with Professors &lt;a href=&#34;http://schroeder.scs.illinois.edu/&#34; target=&#34;_blank&#34;&gt;Charles M. Schroeder&lt;/a&gt; and &lt;a href=&#34;http://faculty.scs.illinois.edu/~zhaogrp/&#34; target=&#34;_blank&#34;&gt;Huimin Zhao&lt;/a&gt; Groups at Illinois, this project aims to combine experimental and computational approaches to elucidate the molecular mechanism of TALE protein specificity and TALE binding to target and random DNA. We focused on studying the effects of solution conditions on TALE specificity. Using molecular simulations and mathematical modeling, we obtained structural and energetic insights into TALE-DNA binding mechanism.&lt;/p&gt;
 
-&lt;p&gt;Relevant publication:
-1. Cuculis L.†, Zhao C.†, Abil Z., Zhao H., Shukla D. and Schroeder C.M. (2019). Divalent Cations Promote TALE DNA-binding Specificity. Nucleic Acids Research, minor revision invited. († denotes co-first author)&lt;/p&gt;
+&lt;p&gt;Relevant publication:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Cuculis L.†, Zhao C.†, Abil Z., Zhao H., Shukla D. and Schroeder C.M. (2019). Divalent Cations Promote TALE DNA-binding Specificity. Nucleic Acids Research, minor revision invited. († denotes co-first author)&lt;/li&gt;
+&lt;/ol&gt;
 </description>
     </item>
     
