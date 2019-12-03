@@ -1,0 +1,781 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 3.2.0">
+  <meta name="generator" content="Hugo 0.53" />
+  <meta name="author" content="Chuankai Zhao">
+
+  
+  
+  
+  
+    
+  
+  <meta name="description" content="Drought is a global environmental challenge that severely affects crop yields, and in turn threatens food and biofuel production. Abscisic acid (ABA) is a hormone molecule produced in plants under water deficiency, which eventually leads to guard cell closure to reduce transpiration water loss. ABA is recognized by a family of receptor proteins that have 14 members (PYR1 and PYL1-13) in Arabidopsis thaliana. Notably, PYL4-PYL13 are monomers in solution, while PYR1 and PYL1-3 form a homodimer. Upon ABA binding to the structurally conserved, water-filled binding site, ABA receptors undergo a pronounced conformational change to activate, which triggers the signaling cascade. ABA receptors are key molecular targets for chemical manipulation of plant water use efficiency. Due to ABA’s poor stability and functional redundancy of receptors, considerable research efforts have been expended on agrochemical discovery and ABA receptor engineering in order to achieve selective activity control of ABA receptors. While ABA signaling mechanism has been intensely investigated, several aspects on activation of ABA receptors and their downregulation by post-translational modifications (PTMs) remain elusive. Specifically, the monomeric receptors exhibit ABA-independent constitutive activity, while the dimeric receptors are ABA-dependent and have two orders of magnitude lower ABA affinity. Also, the dissociation of the dimeric receptors, facilitated by the presence of ABA, is required for full activation. In addition, ABA receptors are subjected to various types of PTMs, which can render current agrochemicals ineffective. The unclear molecular origins of these observations substantially hamper the rational design of ABA agonists with high stability, affinity and selectivity. In this work, we have utilized unbiased molecular dynamics (MD) simulations to elucidate the complete molecular basis of ABA-mediated activation of three subtype receptors (dimeric PYL2 and monomeric PYL5, PYL10) and a modified PYL5 through tyrosine nitration. We have performed ~500 μs (aggregate) MD simulations to capture ABA binding and subsequent receptor activation in atomic details. We then apply the cutting-edge Markov state models (MSM) methodology to fully map out the protein-ligand binding process and the activation pathways of the three ABA receptors, along with quantitative thermodynamic and kinetic characterizations. Energetic landscapes reveal that ABA binding is necessary but insufficient for full receptor activation. ABA must surmount a large energy barrier to bind the receptors and the major barrier appears to be associated with substantial dewetting of receptor during ABA binding. Our results explain the molecular mechanisms of the ABA-independent activation for the monomeric PYL10 receptor and the ABA-dependent activation for the dimeric PYL2 receptor. We show that the tyrosine nitration of PYL5 significantly alters the binding site, thereby preventing ABA perception. To study the effects of ABA binding on the dissociation of the dimeric PYL2 receptor, we have employed replica exchange umbrella sampling (REUS) simulations to accurately calculate the standard PYL2 association free energy. Coupled with multistate Bennett acceptance ratio (MBAR) method, we determine that the protein-protein binding free energies for the apo-apo, the holo-apo, the holo-holo PYL2 receptors are -14.118 kcal/mol, -9.661 kcal/mol and -9.241 kcal/mol. These results suggest that the binding of ABA causes ~5 kcal/mol difference in PYL2 association free energy, thereby destabilizing the PYL2 complex. Finally, we have investigated the solvation thermodynamics of ABA receptors via MD simulations and inhomogeneous solvation theory. By comparing the water thermodynamics at the binding site in the presence and the absence of ABA, we obtain energetic insights into the role of water molecules on ABA binding affinity and selectivity. We demonstrate that exploiting water thermodynamics of ABA receptors can be a promising strategy for modifying and designing ABA agonists.">
+
+  
+  <link rel="alternate" hreflang="en-us" href="http://chuankaizhao.github.io/talk/2019-aiche/">
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+  
+  <meta name="theme-color" content="#3f51b5">
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha256-eSi1q2PG6J7g7ib17yAaWMcrr5GrtohYChqibrV7PBE=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css" crossorigin="anonymous">
+        
+      
+    
+
+    
+
+    
+
+  
+
+  
+  
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Montserrat:400,700|Roboto:400,400italic,700|Roboto+Mono">
+  
+
+  <link rel="stylesheet" href="/styles.css">
+  
+
+  
+  
+  
+
+  
+  <link rel="alternate" href="http://chuankaizhao.github.io/index.xml" type="application/rss+xml" title="Chuankai Zhao">
+  <link rel="feed" href="http://chuankaizhao.github.io/index.xml" type="application/rss+xml" title="Chuankai Zhao">
+  
+
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="http://chuankaizhao.github.io/talk/2019-aiche/">
+
+  
+  
+  
+  
+    
+    
+  
+  <meta property="twitter:card" content="summary">
+  
+  <meta property="twitter:site" content="@kyle_chuankai">
+  <meta property="twitter:creator" content="@kyle_chuankai">
+  
+  <meta property="og:site_name" content="Chuankai Zhao">
+  <meta property="og:url" content="http://chuankaizhao.github.io/talk/2019-aiche/">
+  <meta property="og:title" content="Towards rational design of chemical modulators to improve plant drought tolerance | Chuankai Zhao">
+  <meta property="og:description" content="Drought is a global environmental challenge that severely affects crop yields, and in turn threatens food and biofuel production. Abscisic acid (ABA) is a hormone molecule produced in plants under water deficiency, which eventually leads to guard cell closure to reduce transpiration water loss. ABA is recognized by a family of receptor proteins that have 14 members (PYR1 and PYL1-13) in Arabidopsis thaliana. Notably, PYL4-PYL13 are monomers in solution, while PYR1 and PYL1-3 form a homodimer. Upon ABA binding to the structurally conserved, water-filled binding site, ABA receptors undergo a pronounced conformational change to activate, which triggers the signaling cascade. ABA receptors are key molecular targets for chemical manipulation of plant water use efficiency. Due to ABA’s poor stability and functional redundancy of receptors, considerable research efforts have been expended on agrochemical discovery and ABA receptor engineering in order to achieve selective activity control of ABA receptors. While ABA signaling mechanism has been intensely investigated, several aspects on activation of ABA receptors and their downregulation by post-translational modifications (PTMs) remain elusive. Specifically, the monomeric receptors exhibit ABA-independent constitutive activity, while the dimeric receptors are ABA-dependent and have two orders of magnitude lower ABA affinity. Also, the dissociation of the dimeric receptors, facilitated by the presence of ABA, is required for full activation. In addition, ABA receptors are subjected to various types of PTMs, which can render current agrochemicals ineffective. The unclear molecular origins of these observations substantially hamper the rational design of ABA agonists with high stability, affinity and selectivity. In this work, we have utilized unbiased molecular dynamics (MD) simulations to elucidate the complete molecular basis of ABA-mediated activation of three subtype receptors (dimeric PYL2 and monomeric PYL5, PYL10) and a modified PYL5 through tyrosine nitration. We have performed ~500 μs (aggregate) MD simulations to capture ABA binding and subsequent receptor activation in atomic details. We then apply the cutting-edge Markov state models (MSM) methodology to fully map out the protein-ligand binding process and the activation pathways of the three ABA receptors, along with quantitative thermodynamic and kinetic characterizations. Energetic landscapes reveal that ABA binding is necessary but insufficient for full receptor activation. ABA must surmount a large energy barrier to bind the receptors and the major barrier appears to be associated with substantial dewetting of receptor during ABA binding. Our results explain the molecular mechanisms of the ABA-independent activation for the monomeric PYL10 receptor and the ABA-dependent activation for the dimeric PYL2 receptor. We show that the tyrosine nitration of PYL5 significantly alters the binding site, thereby preventing ABA perception. To study the effects of ABA binding on the dissociation of the dimeric PYL2 receptor, we have employed replica exchange umbrella sampling (REUS) simulations to accurately calculate the standard PYL2 association free energy. Coupled with multistate Bennett acceptance ratio (MBAR) method, we determine that the protein-protein binding free energies for the apo-apo, the holo-apo, the holo-holo PYL2 receptors are -14.118 kcal/mol, -9.661 kcal/mol and -9.241 kcal/mol. These results suggest that the binding of ABA causes ~5 kcal/mol difference in PYL2 association free energy, thereby destabilizing the PYL2 complex. Finally, we have investigated the solvation thermodynamics of ABA receptors via MD simulations and inhomogeneous solvation theory. By comparing the water thermodynamics at the binding site in the presence and the absence of ABA, we obtain energetic insights into the role of water molecules on ABA binding affinity and selectivity. We demonstrate that exploiting water thermodynamics of ABA receptors can be a promising strategy for modifying and designing ABA agonists."><meta property="og:image" content="http://chuankaizhao.github.io/img/myprofile.png">
+  <meta property="og:locale" content="en-us">
+  
+  <meta property="article:published_time" content="2019-11-12T15:30:00-17:00">
+  
+  <meta property="article:modified_time" content="2019-11-12T15:30:00-17:00">
+  
+
+  
+
+  
+
+  <title>Towards rational design of chemical modulators to improve plant drought tolerance | Chuankai Zhao</title>
+
+</head>
+<body id="top" data-spy="scroll" data-target="#TableOfContents" data-offset="71" >
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" role="textbox" spellcheck="false" type="search">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+<nav class="navbar navbar-light fixed-top navbar-expand-lg py-0" id="navbar-main">
+  <div class="container">
+
+    
+      <a class="navbar-brand" href="/">Chuankai Zhao</a>
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+    
+    <div class="collapse navbar-collapse" id="navbar">
+
+      
+      
+      <ul class="navbar-nav ml-auto">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/#about">
+            
+            <span>Home</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/#skills">
+            
+            <span>Skills</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/#projects">
+            
+            <span>Research</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/#publications">
+            
+            <span>Publications</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/#talks">
+            
+            <span>Presentations</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/#awards">
+            
+            <span>Honors & Awards</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/#courses">
+            
+            <span>Coursework</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/files/cv.pdf">
+            
+            <span>CV</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/#contact">
+            
+            <span>Contact</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+      
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
+
+        
+
+        
+
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+<div class="pub" itemscope itemtype="http://schema.org/Event">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1 itemprop="name">Towards rational design of chemical modulators to improve plant drought tolerance</h1>
+
+  
+
+  
+    
+
+<div class="article-metadata">
+
+  
+  
+  
+  <div>
+    <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name"><strong>Chuankai Zhao</strong></span>
+    </span>, 
+    <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">Diwakar Shukla</span>
+    </span>
+    
+  </div>
+  
+
+  <span class="article-date">
+    
+    <meta content="2019-11-12 15:30:00 -1700 -1700" itemprop="datePublished">
+    <time datetime="2019-11-12 15:30:00 -1700 -1700" itemprop="dateModified">
+      Nov 12, 2019
+    </time>
+  </span>
+  <span itemscope itemprop="publisher" itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="Chuankai Zhao">
+  </span>
+
+  
+
+  
+  
+
+  
+
+  
+  
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    <li>
+      <a class="twitter"
+         href="https://twitter.com/intent/tweet?text=Towards%20rational%20design%20of%20chemical%20modulators%20to%20improve%20plant%20drought%20tolerance&amp;url=http%3a%2f%2fchuankaizhao.github.io%2ftalk%2f2019-aiche%2f"
+         target="_blank" rel="noopener">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+    <li>
+      <a class="facebook"
+         href="https://www.facebook.com/sharer.php?u=http%3a%2f%2fchuankaizhao.github.io%2ftalk%2f2019-aiche%2f"
+         target="_blank" rel="noopener">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+    </li>
+    <li>
+      <a class="linkedin"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http%3a%2f%2fchuankaizhao.github.io%2ftalk%2f2019-aiche%2f&amp;title=Towards%20rational%20design%20of%20chemical%20modulators%20to%20improve%20plant%20drought%20tolerance"
+         target="_blank" rel="noopener">
+        <i class="fab fa-linkedin-in"></i>
+      </a>
+    </li>
+    <li>
+      <a class="weibo"
+         href="http://service.weibo.com/share/share.php?url=http%3a%2f%2fchuankaizhao.github.io%2ftalk%2f2019-aiche%2f&amp;title=Towards%20rational%20design%20of%20chemical%20modulators%20to%20improve%20plant%20drought%20tolerance"
+         target="_blank" rel="noopener">
+        <i class="fab fa-weibo"></i>
+      </a>
+    </li>
+    <li>
+      <a class="email"
+         href="mailto:?subject=Towards%20rational%20design%20of%20chemical%20modulators%20to%20improve%20plant%20drought%20tolerance&amp;body=http%3a%2f%2fchuankaizhao.github.io%2ftalk%2f2019-aiche%2f">
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  </ul>
+</div>
+
+
+  
+
+</div>
+
+    
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+<div class="btn-links mb-3">
+  
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+    
+      
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1" href="/pdf/2019-AIChE-Fall-CoMSEF.pdf" >
+    
+    Poster
+  </a>
+
+
+</div>
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
+    
+      <h3>Abstract</h3>
+      <p class="pub-abstract" itemprop="text">Drought is a global environmental challenge that severely affects crop yields, and in turn threatens food and biofuel production. Abscisic acid (ABA) is a hormone molecule produced in plants under water deficiency, which eventually leads to guard cell closure to reduce transpiration water loss. ABA is recognized by a family of receptor proteins that have 14 members (PYR1 and PYL1-13) in Arabidopsis thaliana. Notably, PYL4-PYL13 are monomers in solution, while PYR1 and PYL1-3 form a homodimer. Upon ABA binding to the structurally conserved, water-filled binding site, ABA receptors undergo a pronounced conformational change to activate, which triggers the signaling cascade. ABA receptors are key molecular targets for chemical manipulation of plant water use efficiency. Due to ABA’s poor stability and functional redundancy of receptors, considerable research efforts have been expended on agrochemical discovery and ABA receptor engineering in order to achieve selective activity control of ABA receptors. While ABA signaling mechanism has been intensely investigated, several aspects on activation of ABA receptors and their downregulation by post-translational modifications (PTMs) remain elusive. Specifically, the monomeric receptors exhibit ABA-independent constitutive activity, while the dimeric receptors are ABA-dependent and have two orders of magnitude lower ABA affinity. Also, the dissociation of the dimeric receptors, facilitated by the presence of ABA, is required for full activation. In addition, ABA receptors are subjected to various types of PTMs, which can render current agrochemicals ineffective. The unclear molecular origins of these observations substantially hamper the rational design of ABA agonists with high stability, affinity and selectivity. In this work, we have utilized unbiased molecular dynamics (MD) simulations to elucidate the complete molecular basis of ABA-mediated activation of three subtype receptors (dimeric PYL2 and monomeric PYL5, PYL10) and a modified PYL5 through tyrosine nitration. We have performed ~500 μs (aggregate) MD simulations to capture ABA binding and subsequent receptor activation in atomic details. We then apply the cutting-edge Markov state models (MSM) methodology to fully map out the protein-ligand binding process and the activation pathways of the three ABA receptors, along with quantitative thermodynamic and kinetic characterizations. Energetic landscapes reveal that ABA binding is necessary but insufficient for full receptor activation. ABA must surmount a large energy barrier to bind the receptors and the major barrier appears to be associated with substantial dewetting of receptor during ABA binding. Our results explain the molecular mechanisms of the ABA-independent activation for the monomeric PYL10 receptor and the ABA-dependent activation for the dimeric PYL2 receptor. We show that the tyrosine nitration of PYL5 significantly alters the binding site, thereby preventing ABA perception. To study the effects of ABA binding on the dissociation of the dimeric PYL2 receptor, we have employed replica exchange umbrella sampling (REUS) simulations to accurately calculate the standard PYL2 association free energy. Coupled with multistate Bennett acceptance ratio (MBAR) method, we determine that the protein-protein binding free energies for the apo-apo, the holo-apo, the holo-holo PYL2 receptors are -14.118 kcal/mol, -9.661 kcal/mol and -9.241 kcal/mol. These results suggest that the binding of ABA causes ~5 kcal/mol difference in PYL2 association free energy, thereby destabilizing the PYL2 complex. Finally, we have investigated the solvation thermodynamics of ABA receptors via MD simulations and inhomogeneous solvation theory. By comparing the water thermodynamics at the binding site in the presence and the absence of ABA, we obtain energetic insights into the role of water molecules on ABA binding affinity and selectivity. We demonstrate that exploiting water thermodynamics of ABA receptors can be a promising strategy for modifying and designing ABA agonists.</p>
+    
+
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Date</div>
+          <div class="col-12 col-md-9" itemprop="datePublished">
+            
+            Nov 12, 2019
+            <div class="talk-time">
+              
+                3:30 PM
+                
+              
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Event</div>
+          <div class="col-12 col-md-9">
+            
+            Computational Molecular Science and Engineering Forum (CoMSEF), 2019 AIChE Annual Meeting
+            
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Location</div>
+          <div class="col-12 col-md-9">Orlando, FL</div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    <div class="space-below"></div>
+
+    <div class="article-style">
+      
+    </div>
+
+    
+
+    
+
+
+
+  
+
+
+
+
+
+
+
+  </div>
+</div>
+
+
+
+<div class="container">
+  <footer class="site-footer">
+  
+
+  <p class="powered-by">
+    &copy; Chuankai Zhao 2018 &middot; 
+
+    Powered by the
+    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+    
+    <span class="float-right" aria-hidden="true">
+      <a href="#" id="back_to_top">
+        <span class="button_icon">
+          <i class="fas fa-chevron-up fa-2x"></i>
+        </span>
+      </a>
+    </span>
+    
+  </p>
+</footer>
+
+</div>
+
+
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+    
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha512-+NqPlbbtM1QqiK8ZAo4Yrj2c4lNQoGv8P79DPtKzj++l5jnN39rHA/xsqn8zE9l0uSoxaCdrOgFs6yjyfbBxSg==" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.3/imagesloaded.pkgd.min.js" integrity="sha512-umsR78NN0D23AzgoZ11K7raBD+R6hqKojyBZs1w8WvYlsI+QuKRGBx3LFCwhatzBunCjDuJpDHwxD13sLMbpRA==" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha256-VsEqElsCHSGmnmHXGQzvoWjWwoznFSZc6hs7ARLRacQ=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.4/isotope.pkgd.min.js" integrity="sha512-VDBOIlDbuC4VWxGJNmuFRQ0Li0SKkDpmGyuhAG5LTDLd/dJ/S0WMVxriR2Y+CyPL5gzjpN4f/6iqWVBJlht0tQ==" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
+        
+      
+
+      
+      
+    
+
+    
+    
+
+    
+    
+    
+
+    
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+    <script>
+      const search_index_filename = "/index.json";
+      const i18n = {
+        'placeholder': "Search...",
+        'results': "results found",
+        'no_results': "No results found"
+      };
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks"
+        };
+    </script>
+    
+
+    
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    <script src="/js/academic.min.d037ee5294b166a79dec317c58aea9cc.js"></script>
+
+    
+
+  </body>
+</html>
+
